@@ -1,0 +1,41 @@
+﻿La génération a démarré 14/02/2015 02:20:42.
+     1>Projet "C:\Users\Paul\Desktop\Projet C++\Projet C++ avec classe Version 3\Projet C++ avec classe Version 3\Projet C++ avec classe Version 3.vcxproj" sur le nœud 2 (build cible(s)).
+     1>InitializeBuildStatus:
+         Création de "Debug\Projet C++ avec classe Version 3.unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Carte.cpp Jeu.cpp Phase_Achat.cpp Phase_Invasion_Monstre.cpp Tourelle.cpp
+         Carte.cpp
+     1>c:\users\paul\desktop\projet c++\projet c++ avec classe version 3\projet c++ avec classe version 3\carte.cpp(30): warning C4101: 'k' : variable locale non référencée
+         Génération de code en cours...
+     1>c:\users\paul\desktop\projet c++\projet c++ avec classe version 3\projet c++ avec classe version 3\carte.cpp(102): warning C4715: 'Carte::choix_carte' : les chemins de contrôle ne retournent pas tous une valeur
+     1>c:\users\paul\desktop\projet c++\projet c++ avec classe version 3\projet c++ avec classe version 3\carte.cpp(118): warning C4715: 'Carte::coordonnee_finale_x' : les chemins de contrôle ne retournent pas tous une valeur
+     1>c:\users\paul\desktop\projet c++\projet c++ avec classe version 3\projet c++ avec classe version 3\carte.cpp(134): warning C4715: 'Carte::coordonnee_finale_y' : les chemins de contrôle ne retournent pas tous une valeur
+         Ignoré... (aucune modification pertinente détectée)
+         Tourelle.cpp
+         Phase_Invasion_Monstre.cpp
+         Phase_Achat.cpp
+         Jeu.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Paul\Desktop\Projet C++\Projet C++ avec classe Version 3\Debug\Projet C++ avec classe Version 3.exe" /NOLOGO SDL.lib SDLmain.lib SDL_image.lib SDL_ttf.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Projet C++ avec classe Version 3.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Paul\Desktop\Projet C++\Projet C++ avec classe Version 3\Debug\Projet C++ avec classe Version 3.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Paul\Desktop\Projet C++\Projet C++ avec classe Version 3\Debug\Projet C++ avec classe Version 3.lib" /MACHINE:X86 Debug\Carte.obj
+         Debug\fonction_affichage.obj
+         Debug\Jeu.obj
+         Debug\main.obj
+         Debug\Menu_accueil.obj
+         Debug\Monstre.obj
+         Debug\Phase_Achat.obj
+         Debug\Phase_Invasion_Monstre.obj
+         Debug\Temps.obj
+         Debug\Tourelle.obj
+         LINK : C:\Users\Paul\Desktop\Projet C++\Projet C++ avec classe Version 3\Debug\Projet C++ avec classe Version 3.exe introuvable ou non généré par la dernière édition de liens incrémentielle ; édition de liens complète en cours
+     1>MSVCRTD.lib(cinitexe.obj) : warning LNK4098: conflit entre la bibliothèque par défaut 'msvcrt.lib' et les autres bibliothèques ; utilisez /NODEFAULTLIB:library
+         Projet C++ avec classe Version 3.vcxproj -> C:\Users\Paul\Desktop\Projet C++\Projet C++ avec classe Version 3\Debug\Projet C++ avec classe Version 3.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Paul\Desktop\Projet C++\Projet C++ avec classe Version 3\Debug\Projet C++ avec classe Version 3.exe;#1" /manifest "Debug\Projet C++ avec classe Version 3.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Suppression du fichier "Debug\Projet C++ avec classe Version 3.unsuccessfulbuild".
+         Mise à jour de l'horodatage "Debug\Projet C++ avec classe Version 3.lastbuildstate".
+     1>Génération du projet "C:\Users\Paul\Desktop\Projet C++\Projet C++ avec classe Version 3\Projet C++ avec classe Version 3\Projet C++ avec classe Version 3.vcxproj" terminée (build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:00.84
